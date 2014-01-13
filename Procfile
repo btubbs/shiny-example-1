@@ -1,1 +1,1 @@
-R -e "shiny::runApp('.', as.numeric(Sys.getenv(\"PORT\")))"
+web: R -e "shiny::runApp('.', as.numeric(Sys.getenv(\"PORT\")))"
